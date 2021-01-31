@@ -20,5 +20,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void displayFunction(View view) {
+        String name ,phone;
+        name = nameId.getText().toString();
+        phone = phoneId.getText().toString();
+        displayTextView.setText("Your name is "+name+" and Phone Number is "+phone);
     }
 }
