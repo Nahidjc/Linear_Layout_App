@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
   EditText nameId,phoneId;
@@ -24,5 +25,6 @@ public class MainActivity extends AppCompatActivity {
         name = nameId.getText().toString();
         phone = phoneId.getText().toString();
         displayTextView.setText("Your name is "+name+" and Phone Number is "+phone);
+        Toast.makeText(this, " "+"Your name is "+name+" and Phone Number is "+phone, Toast.LENGTH_SHORT).show();
     }
 }
