@@ -35,5 +35,15 @@
         android:text="Submit">
 
     </Button>
+    <TextView
+        android:id="@+id/displayTextView"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
 
 </LinearLayout>
